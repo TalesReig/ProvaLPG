@@ -41,7 +41,8 @@ namespace TesteTraducao
                                 Console.WriteLine(idioma.GetMensagem("1 - Adicionar Produto"));
                                 Console.WriteLine(idioma.GetMensagem("2 - Remover Produto"));
                                 Console.WriteLine(idioma.GetMensagem("3 - Listar Produtos"));
-                                Console.WriteLine(idioma.GetMensagem("4 - Voltar"));
+                                Console.WriteLine(idioma.GetMensagem("4 - Adicionar Fornecedor"));
+                                Console.WriteLine(idioma.GetMensagem("5 - Voltar"));
 
                                 if (int.TryParse(Console.ReadLine(), out productChoice))
                                 {
@@ -79,6 +80,22 @@ namespace TesteTraducao
                                             }
                                             break;
                                         case 4:
+                                            // Adicionar Fornecedor ao Produto
+                                            produtos = controleDeEstoque.SelecionarTodos();
+                                            foreach (Produto produtoParaAddFornecedor in produtos)
+                                            {
+                                                Console.WriteLine(produtoParaAddFornecedor);
+                                            }
+                                            Console.WriteLine("Digite o ID do Produto que deseja adicionar Fornecedor");
+                                            int idAddFornecedor = Convert.ToInt32(Console.ReadLine());
+                                            controladorFornecedor.ListarFornecedores();
+                                            Console.WriteLine("Digite o ID do Fornecedor que deseja adicionar ao Produto");
+                                            int idFornecedor = Convert.ToInt32(Console.ReadLine());
+                                            Fornecedor fornecedor = controladorFornecedor.SelecionarFornecedorPorId(idFornecedor);
+                                            Produto produtoToAdd = controleDeEstoque.SelecionarPorId(idAddFornecedor);
+                                            produtoToAdd.AdicionarFornecedor(fornecedor);
+                                            break;
+                                        case 5:
                                             // Voltar
                                             break;
                                         default:
@@ -108,8 +125,18 @@ namespace TesteTraducao
                                     {
                                         case 1:
                                             // Adicionar Venda
-                                            //listar produtos
-                                            //selecionar o id e perguntar quantos de cada produto
+                                            int choiceVenda = 0;
+                                            while(choiceVenda == 0)
+                                            {
+                                                var produtos = controleDeEstoque.SelecionarTodos();
+                                                foreach (Produto item in produtos)
+                                                {
+                                                    Console.WriteLine(item);
+                                                }
+                                                Console.WriteLine("Digite o id do produto que deseja adiconar a venda");
+
+                                            }
+
                                             break;
                                         case 2:
                                             // Listar Vendas

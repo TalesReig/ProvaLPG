@@ -4,6 +4,7 @@ namespace TesteTraducao.Model
 {
     public class Venda
     {
+        public int id { get; set; }
         public List<ItemVenda> ListaProdutos { get; set; }
         public string FormaPagamento { get; set; }
         public string CpfCliente { get; set; }

@@ -144,8 +144,11 @@
   <data name="3 - Voltar" xml:space="preserve">
     <value>3 - Back</value>
   </data>
-  <data name="4 - Voltar" xml:space="preserve">
-    <value>4 - Back</value>
+  <data name="4 - Adicionar Fornecedor" xml:space="preserve">
+    <value>4 - Add Supplier</value>
+  </data>
+  <data name="5 - Voltar" xml:space="preserve">
+    <value>5 - Back</value>
   </data>
   <data name="Digite o ID do Produto (Não repita)" xml:space="preserve">
     <value>Enter Product ID (Do not repeat)</value>

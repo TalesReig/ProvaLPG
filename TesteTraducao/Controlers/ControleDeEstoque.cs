@@ -22,7 +22,10 @@ namespace TesteTraducao.Controlers
             produtos.Add(produto);
         }
 
-        
+        public Produto SelecionarPorId(int id)
+        {
+            return produtos.FirstOrDefault(p => p.Id == id);
+        }
 
         public void RemoverProduto(int id)
         {
