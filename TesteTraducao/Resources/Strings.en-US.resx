@@ -117,8 +117,56 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="1 - Adicionar Produto" xml:space="preserve">
+    <value>1 - Add Product</value>
+  </data>
+  <data name="1 - Adicionar Venda" xml:space="preserve">
+    <value>1 - Add Sale</value>
+  </data>
+  <data name="1 - Menu de Produtos" xml:space="preserve">
+    <value>1 - Product Menu</value>
+  </data>
+  <data name="2 - Listar Vendas" xml:space="preserve">
+    <value>2 - List Sales</value>
+  </data>
+  <data name="2 - Menu de Vendas" xml:space="preserve">
+    <value>2 - Sales Menu</value>
+  </data>
+  <data name="2 - Remover Produto" xml:space="preserve">
+    <value>2 - Remove Product</value>
+  </data>
+  <data name="3 - Listar Produtos" xml:space="preserve">
+    <value>3 - Listar Produtos</value>
+  </data>
+  <data name="3 - Sair" xml:space="preserve">
+    <value>3 - Exit</value>
+  </data>
+  <data name="3 - Voltar" xml:space="preserve">
+    <value>3 - Back</value>
+  </data>
+  <data name="4 - Voltar" xml:space="preserve">
+    <value>4 - Back</value>
+  </data>
+  <data name="Digite o ID do Produto (Não repita)" xml:space="preserve">
+    <value>Enter Product ID (Do not repeat)</value>
+  </data>
   <data name="Escolha uma opção:" xml:space="preserve">
     <value>Choose an option</value>
+  </data>
+  <data name="Opção inválida." xml:space="preserve">
+    <value>Invalid option.</value>
+  </data>
+  <data name="Qual produto você deseja remover:" xml:space="preserve">
+    <value>Which product do you want to remove:</value>
+  </data>
+  <data name="Quantidade em estoque:" xml:space="preserve">
+    <value>Quantity in stock:</value>
+  </data>
+  <data name="Titulo do produto:" xml:space="preserve">
+    <value>Product title:</value>
+  </data>
+  <data name="Valor do produto" xml:space="preserve">
+    <value>product value</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Bem vindo em inglês</value>

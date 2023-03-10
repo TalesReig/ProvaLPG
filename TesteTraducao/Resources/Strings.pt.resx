@@ -117,8 +117,56 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="1 - Adicionar Produto" xml:space="preserve">
+    <value>1 - Adicionar Produto</value>
+  </data>
+  <data name="1 - Adicionar Venda" xml:space="preserve">
+    <value>1 - Adicionar Venda</value>
+  </data>
+  <data name="1 - Menu de Produtos" xml:space="preserve">
+    <value>1 - Menu de Produtos</value>
+  </data>
+  <data name="2 - Listar Vendas" xml:space="preserve">
+    <value>2 - Listar Vendas</value>
+  </data>
+  <data name="2 - Menu de Vendas" xml:space="preserve">
+    <value>2 - Menu de Vendas</value>
+  </data>
+  <data name="2 - Remover Produto" xml:space="preserve">
+    <value>2 - Remover Produto</value>
+  </data>
+  <data name="3 - Listar Produtos" xml:space="preserve">
+    <value>3 - Listar Produtos</value>
+  </data>
+  <data name="3 - Sair" xml:space="preserve">
+    <value>3 - Sair</value>
+  </data>
+  <data name="3 - Voltar" xml:space="preserve">
+    <value>3 - Voltar</value>
+  </data>
+  <data name="4 - Voltar" xml:space="preserve">
+    <value>4 - Voltar</value>
+  </data>
+  <data name="Digite o ID do Produto (Não repita)" xml:space="preserve">
+    <value>Digite o ID do Produto (Não repita)</value>
+  </data>
   <data name="Escolha uma opção:" xml:space="preserve">
     <value>Escolha uma opção:</value>
+  </data>
+  <data name="Opção inválida." xml:space="preserve">
+    <value>Opção inválida.</value>
+  </data>
+  <data name="Qual produto você deseja remover:" xml:space="preserve">
+    <value>Qual produto você deseja remover:</value>
+  </data>
+  <data name="Quantidade em estoque:" xml:space="preserve">
+    <value>Quantidade em estoque:</value>
+  </data>
+  <data name="Titulo do produto:" xml:space="preserve">
+    <value>Titulo do produto:</value>
+  </data>
+  <data name="Valor do produto" xml:space="preserve">
+    <value>Valor do produto</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Bem vindo em Português</value>

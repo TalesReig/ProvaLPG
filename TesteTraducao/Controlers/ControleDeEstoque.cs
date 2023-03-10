@@ -10,6 +10,7 @@ namespace TesteTraducao.Controlers
     public class ControleDeEstoque
     {
         private readonly List<Produto> produtos;
+        private readonly List<Venda> vendas;
 
         public ControleDeEstoque()
         {
@@ -20,6 +21,8 @@ namespace TesteTraducao.Controlers
         {
             produtos.Add(produto);
         }
+
+        
 
         public void RemoverProduto(int id)
         {

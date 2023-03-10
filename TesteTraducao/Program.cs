@@ -66,7 +66,7 @@ namespace TesteTraducao
                                             {
                                                 Console.WriteLine(item);
                                             }
-                                            Console.WriteLine("Qual produto você deseja remover: ");
+                                            Console.WriteLine("Qual produto você deseja remover:");
                                             int idRemocao = Convert.ToInt32(Console.ReadLine());
                                             controleDeEstoque.RemoverProduto(idRemocao);
                                             break;
@@ -108,6 +108,8 @@ namespace TesteTraducao
                                     {
                                         case 1:
                                             // Adicionar Venda
+                                            //listar produtos
+                                            //selecionar o id e perguntar quantos de cada produto
                                             break;
                                         case 2:
                                             // Listar Vendas
