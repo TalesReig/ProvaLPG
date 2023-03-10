@@ -10,9 +10,13 @@ namespace TesteTraducao
     {
         static void Main(string[] args)
         {
-            Idiomas idioma = new Idiomas("en");
-            Console.WriteLine(idioma.GetMensagem("Welcome"));
-            Console.ReadKey();
+            string linguagemSelecionada = "en";
+
+            if (args.Length > 0)
+            {
+                linguagemSelecionada = args[0];
+            }
+            Idiomas idioma = new Idiomas(linguagemSelecionada);
 
             ControladorDeFornecedores controladorFornecedor = new ControladorDeFornecedores();
             ControleDeEstoque controleDeEstoque = new ControleDeEstoque();
