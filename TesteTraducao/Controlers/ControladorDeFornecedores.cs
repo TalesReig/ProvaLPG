@@ -20,7 +20,6 @@ namespace TesteTraducao.Controlers
         {
             Fornecedor fornecedor = new Fornecedor(id,nome, endereco);
             fornecedores.Add(fornecedor);
-            Console.WriteLine($"Fornecedor {fornecedor.Nome} adicionado com sucesso.");
         }
 
         public void ListarFornecedores()
