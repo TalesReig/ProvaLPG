@@ -1,11 +1,13 @@
-# Título do Projeto
-Este é um projeto fictício criado para demonstrar a estrutura básica de um README.
+Segue abaixo o arquivo README.md com todas as funcionalidades do projeto:
+# Prova de LPG
+Sistema de Gerenciamento de Vendas
+Este projeto consiste em um sistema de gerenciamento de vendas, que permite o cadastro de produtos, fornecedores e vendas, além de gerar um relatório em PDF com as informações de vendas.
 
 ## Descrição
 Este projeto tem como objetivo demonstrar como criar um README simples, organizado e eficaz. Através deste README, você poderá entender o que o projeto faz, como utilizá-lo e quais são suas principais funcionalidades.
 
 ## Instalação
-Para instalar o projeto, basta clonar o repositório e instalar as dependências necessárias:
+Para instalar o projeto, basta clonar o repositório e instalar as dependências necessárias, além disso é necessário ter o Dotnet 5.0 instalado na máquina
 
 ```bash
 https://github.com/TalesReig/BaseProjectOfTraduction.git
