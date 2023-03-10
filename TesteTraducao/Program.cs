@@ -25,10 +25,10 @@ namespace TesteTraducao
 
             while (mainChoice != 3)
             {
-                Console.WriteLine("Escolha uma opção:");
-                Console.WriteLine("1 - Menu de Produtos");
-                Console.WriteLine("2 - Menu de Vendas");
-                Console.WriteLine("3 - Sair");
+                Console.WriteLine(idioma.GetMensagem("Escolha uma opção:"));
+                Console.WriteLine(idioma.GetMensagem("1 - Menu de Produtos"));
+                Console.WriteLine(idioma.GetMensagem("2 - Menu de Vendas"));
+                Console.WriteLine(idioma.GetMensagem("3 - Sair"));
 
                 if (int.TryParse(Console.ReadLine(), out mainChoice))
                 {
@@ -37,24 +37,24 @@ namespace TesteTraducao
                         case 1:
                             while (productChoice != 4)
                             {
-                                Console.WriteLine("Escolha uma opção:");
-                                Console.WriteLine("1 - Adicionar Produto");
-                                Console.WriteLine("2 - Remover Produto");
-                                Console.WriteLine("3 - Listar Produtos");
-                                Console.WriteLine("4 - Voltar");
+                                Console.WriteLine(idioma.GetMensagem("Escolha uma opção:"));
+                                Console.WriteLine(idioma.GetMensagem("1 - Adicionar Produto"));
+                                Console.WriteLine(idioma.GetMensagem("2 - Remover Produto"));
+                                Console.WriteLine(idioma.GetMensagem("3 - Listar Produtos"));
+                                Console.WriteLine(idioma.GetMensagem("4 - Voltar"));
 
                                 if (int.TryParse(Console.ReadLine(), out productChoice))
                                 {
                                     switch (productChoice)
                                     {
                                         case 1:
-                                            Console.WriteLine("Digite o ID do Produto (Não repita)");
+                                            Console.WriteLine(idioma.GetMensagem("Digite o ID do Produto (Não repita)"));
                                             int id = Convert.ToInt32(Console.ReadLine());
-                                            Console.WriteLine("Valor do produto");
+                                            Console.WriteLine(idioma.GetMensagem("Valor do produto"));
                                             double valor = Convert.ToDouble(Console.ReadLine());
-                                            Console.WriteLine("Titulo do produto:");
+                                            Console.WriteLine(idioma.GetMensagem("Titulo do produto:"));
                                             string titulo = Console.ReadLine();
-                                            Console.WriteLine("Quantidade em estoque:");
+                                            Console.WriteLine(idioma.GetMensagem("Quantidade em estoque:"));
                                             int qnt = Convert.ToInt32(Console.ReadLine());
                                             Produto produto = new Produto(id, titulo, valor, qnt);
                                             controleDeEstoque.AdicionarProduto(produto);
@@ -66,7 +66,7 @@ namespace TesteTraducao
                                             {
                                                 Console.WriteLine(item);
                                             }
-                                            Console.WriteLine("Qual produto você deseja remover:");
+                                            Console.WriteLine(idioma.GetMensagem("Qual produto você deseja remover:"));
                                             int idRemocao = Convert.ToInt32(Console.ReadLine());
                                             controleDeEstoque.RemoverProduto(idRemocao);
                                             break;
@@ -82,13 +82,13 @@ namespace TesteTraducao
                                             // Voltar
                                             break;
                                         default:
-                                            Console.WriteLine("Opção inválida.");
+                                            Console.WriteLine(idioma.GetMensagem("Opção inválida."));
                                             break;
                                     }
                                 }
                                 else
                                 {
-                                    Console.WriteLine("Opção inválida.");
+                                    Console.WriteLine(idioma.GetMensagem("Opção inválida."));
                                 }
 
                                 Console.WriteLine();
